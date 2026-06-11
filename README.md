@@ -13,10 +13,6 @@ effort referred to throughout the code as **PSIMF**.
 
 ## Conventions
 
-- **File paths have been scrubbed for privacy.** Hard-coded local paths are
-  replaced with placeholders: `path/to/...` (local files), `path/to/hpc/...`
-  (HPC cluster storage), and `path/to/network_share/...` (network drive). Edit
-  these to match your environment before running.
 - Most scripts are **single-purpose and configured by editing the variables at
   the top of the file** (input paths, watershed name, year ranges) rather than
   via command-line arguments.
